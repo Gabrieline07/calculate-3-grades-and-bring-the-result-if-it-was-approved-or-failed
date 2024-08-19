@@ -1,0 +1,19 @@
+def calcular_media(nota1, nota2, nota3):
+return (nota1 + nota2 + nota3) / 3
+
+def verificar_aprovacao(media):
+if media >= 7:
+return "aprovado"
+else:
+return "reprovado"
+nome_do_aluno = input ("Digite o nome do aluno:")
+nota1 = float(input("Digite a primeira nota:")
+nota2 = float(input("Digite a segunda nota:")
+nota3 = float(input("Digite a terceira nota:")
+
+media = calcular_media(nota1, nota2, nota3)
+status = verificar_aprovacao (media)
+
+print('f Aluno: {nome_do_aluno}'
+print('f Media: {media}'
+print('f situação: {status}'
